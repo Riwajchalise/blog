@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Never stopped worrying or loving the bomb"
-author: mark
+author: subham
 categories: [ Jekyll ]
 image: assets/images/14.jpg
 featured: true

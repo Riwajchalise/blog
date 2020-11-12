@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Press and education"
-author: jill
+author: reyusha
 categories: [ Jekyll, tutorial ]
 image: assets/images/7.jpg
 featured: true

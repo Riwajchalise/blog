@@ -7,4 +7,4 @@ linkedin: https://www.linkedin.com/in/riwajchalise/
 twitter: https://twitter.com/riwaj_
 email: wazzree@gmail.com
 ---
-Riwaj is an aspiring web developer and co-founder of free thoughts.
+Riwaj is an aspiring web developer who is... I don't know how to brag!
