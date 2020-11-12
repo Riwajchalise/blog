@@ -1,0 +1,108 @@
+---
+# Add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+
+// Bootstrap resets
+.card {
+	border: none;
+  }
+  .card-img {
+	border-radius: 0;
+  }
+  
+  .btn-outline-linkedin {
+	color: #2867b2;
+	background-color: transparent;
+	background-image: none;
+	border-color: #2867b2;
+  }
+  .btn-outline-linkedin:hover {
+	color: #fff;
+	background-color: #2867b2;
+	border-color: #2867b2;
+  }
+  .btn-outline-facebook {
+	color: #4267B2;
+	background-color: transparent;
+	background-image: none;
+	border-color: #4267B2;
+  }
+  .btn-outline-facebook:hover {
+	color: #fff;
+	background-color: #4267B2;
+	border-color: #4267B2;
+  }
+  
+  .vgr-cards {
+	.card {
+	  display: flex;
+	  flex-flow: wrap;
+	  flex: 100%;
+	  margin-bottom: 40px;
+  
+	  &:nth-child(even) .card-img-body {
+		order: 2;
+	  }
+  
+	  &:nth-child(even) .card-body {
+		padding-left: 0;
+		padding-right: 1.25rem;
+	  }
+  
+	  @media (max-width: 576px) {
+		display: block;
+	  }
+	}
+  
+	.card-img-body {
+	  overflow: hidden;
+	  position: relative;
+	  width: 140px;
+	  height: 140px !important;
+	  border-radius: 70px;
+	  background-size: cover;
+  
+	  @media (max-width: 576px) {
+		margin-bottom: 20px;
+		left: 50%;
+		transform: translate(-50%);
+	  }
+	}
+  
+	.card-img {
+	  width: 100%;
+	  height: auto;
+	  position: absolute;
+	  margin-left: 50%;
+	  transform: translateX(-50%);
+  
+	  @media (max-width: 1140px) {
+		margin: 0;
+		transform: none;
+		width: 100%;
+		height: auto;
+	  }
+	}
+  
+	.card-body {
+	  flex: 2;
+	  padding: 0 0 0 1.25rem;
+  
+	  @media (max-width: 576px) {
+		padding: 0;
+	  }
+	}
+  }
+  
+.post-excerpt p {
+	display:inline;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax",
+    "starsnonscss"
+;

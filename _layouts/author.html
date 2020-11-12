@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+
+    <div class="card-group vgr-cards">
+      <div class="card">
+        <div style="background-image: url('{{ site.baseurl }}/{{ page.avatar }}');" class="card-img-body">
+        </div>
+        <div class="card-body">
+          
+          <h4 class="card-title">{{ page.name }} </h4>
+          <p>
+          <span style="opacity: 0.8;"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;{{page.short_name}}</span></p>
+                {% if page.twitter %}
+                  <a href="{{page.twitter}}" target="_blank" class="btn btn-outline-primary"><i class="fa fa-twitter"></i></a>
+                {% endif %}
+                {% if page.linkedin %}
+                  <a href="{{page.linkedin}}" target="_blank" class="btn btn-outline-linkedin"><i class="fa fa-linkedin"></i></a>
+                {% endif %}
+                {% if page.email %}
+                  <a href="mailto:{{page.email}}" class="btn btn-outline-info"><i class="fa fa-envelope"></i></a>
+                {% endif %}  
+                <hr>
+          <p class="card-text">{{ page.content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>Posts by {{ page.name }}</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in filtered_posts %}
+
+        {% include postbox.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+    <span class="navigation" role="navigation">
+        {% include pagination.html %}
+    </span>
+</div>
