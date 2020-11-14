@@ -6,7 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 google_analytics: 'UA-151028741-1'
 disqus: 'free-thoughts-1'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list:
 include: ["_pages"]
 permalink: /:title/
 
