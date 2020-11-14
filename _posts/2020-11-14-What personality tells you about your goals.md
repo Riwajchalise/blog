@@ -9,8 +9,6 @@ image: https://upload.wikimedia.org/wikipedia/commons/0/08/HEXACO_1.png
 featured: true
 hidden: false
 ---
-**What personality tells you about your goals**
-
 Goals are beautiful dreams. There are thousands of books dedicated to providing you compelling lessons and advice on goals and the ways to go about attaining them. There isn&#39;t a problem in those books, at least not more than the problem in the readers themselves. People read them, try to enforce them in their lives and only a handful succeed. One of the problems I see is how people overlook themselves in the pursuit of their goals. So, my attempt here is to simply make people rethink about the role their personality plays in goal orientation, which is your motivation towards achieving your goals.
 
  Tt is understood that setting challenging goals and adhering to it is the way to go about the business. However, not every type of goal and not every approach to those goals might be feasible for your personality type. Of course, there are other determinants of goal achievement such as one&#39;s competence, perceived value of the goal, ability to self-regulate, however, even if you are consciously considering these factors you might as well start reconsidering the role that your personality can play. This is because personality precedes all other factors in determining your motivation towards your goal.  Your perception is modelled by your personality and you must understand lenses through which you make sense of the world.Oftentimes we are busy trying to find ways to change ourselves that we become oblivious about the possibilities and opportunities presented by the very personality we embody.
