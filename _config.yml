@@ -4,7 +4,8 @@ title: "Free Thoughts"
 description: "Write your ideas, thoughts, reviews, research and analysis about anything and everything."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-google_analytics: 'UA-151028741-1'
+google_analytics: 'G-H2FG74WDBC'
+# google_analytics: 'UA-151028741-1'
 disqus: 'free-thoughts-1'
 mailchimp-list:
 include: ["_pages"]
