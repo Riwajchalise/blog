@@ -1,0 +1,82 @@
+---
+layout: page
+title: Contact Us
+permalink: /contact
+comments: false
+---
+
+<div class="container">
+  <h1 id="feedback">Please fill this form to contact US</h1>
+
+  <form method="post" id="contact-form">
+    <div class="form-group">
+      <label>Name: *</label>
+      <input type="text" class="form-control" id="form-name" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <label>Email: *</label>
+      <input type="email" class="form-control" id="form-email" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label>Phone:</label>
+      <input type="tel" class="form-control" id="form-phone" placeholder="Phone">
+    </div>
+    <div class="form-group">
+      <label>Message:</label>
+      <textarea type="text" class="form-control" id="form-message" placeholder="Message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">
+      Send message
+    </button>
+  </form>
+  <br>
+  <br>
+</div>
+
+<script>
+// Process contact form
+$('#contact-form').submit(function(event) {
+  event.preventDefault();
+  $('#feedback').html('');
+  setTimeout(function() {
+  	// Get data
+    var data = {
+      'entry.1264051134': $('#form-name').val(),
+      'entry.1480040396': $('#form-email').val(),
+      'entry.443303985': $('#form-phone').val(),
+      'entry.1254525160': $('#form-message').val()
+    };
+
+    // Validate form
+    var formSuccess = true;
+    Object.keys(data).forEach(function(key, index) {
+      if (!data[key]) {
+        formSuccess = false;
+        $('#feedback').html('<label class="text-danger">Please complete all fields</label>');
+      }
+    });
+
+    if (formSuccess) {
+      // Send request
+      $.ajax({
+        url: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSe3Nb-P2S7voHHysZy2a5U-NszHOJZBNbGrkDOsDDOUKEPatg/formResponse',
+        type: 'POST',
+        crossDomain: true,
+        dataType: "xml",
+        data: data,
+        success: function(jqXHR, textStatus, errorThrown) {
+          console.log('Enter on success');
+          $('#feedback').html('<label class="text-success"><h1>Message sent! Our contact team will contact you soon</h1></label>');
+          $('#contact-form').css("visibility", "hidden");
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          console.log('Enter on error');
+          $('#feedback').html('<label class="text-success"><h1>Message sent! Our contact team will contact you soon</h1></label>');
+          $('#contact-form').css("visibility", "hidden");
+        }
+      });
+    }
+  }, 300);
+});
+
+</script>

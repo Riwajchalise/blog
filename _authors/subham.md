@@ -1,5 +1,5 @@
 ---
-short_name: subham
+short_name: 157075subham@gmail.com
 name: Subham Pokharel
 position: Founder
 avatar: 'assets/images/subham.jpg'
