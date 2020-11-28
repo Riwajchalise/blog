@@ -23,7 +23,7 @@ comments: false
     </div>
     <div class="form-group">
       <label>Message:</label>
-      <textarea type="text" class="form-control" id="form-message" placeholder="Message"></textarea>
+      <textarea rows="5" type="text" class="form-control" id="form-message" placeholder="Message"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">
       Send message
