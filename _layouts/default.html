@@ -66,20 +66,36 @@
                         <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
                     </li>
 
+                    {% if page.url == "/about" %}
+                    <li class="nav-item active">
+                        {% else %}
                     <li class="nav-item">
+                        {% endif %}
                         <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                     </li>
 
 
+                    {% if page.url == "/categories" %}
+                    <li class="nav-item active">
+                        {% else %}
                     <li class="nav-item">
+                        {% endif %}
                         <a class="nav-link" href="{{ site.baseurl }}/categories">Categories</a>
                     </li>
 
+                    {% if page.url == "/privacypolicy" %}
+                    <li class="nav-item active">
+                        {% else %}
                     <li class="nav-item">
+                        {% endif %}
                         <a class="nav-link" href="{{ site.baseurl }}/privacypolicy">Privacy Policy</a>
                     </li>
 
+                    {% if page.url == "/contact" %}
+                    <li class="nav-item active">
+                        {% else %}
                     <li class="nav-item">
+                        {% endif %}
                         <a class="nav-link" href="{{ site.baseurl }}/contact">Contact Us</a>
                     </li>
 
@@ -143,8 +159,10 @@
             <div class="d-md-flex h-100">
                 <div class="col-md-4 transpdark align-self-center text-center h-100">
                     <div class="d-md-flex align-items-center justify-content-center h-100">
-                        <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span
-                                class="d-none d-md-inline">→</span></h2>
+                        <a href="{{ site.baseurl }}/categories">
+                            <h2 class="d-md-block align-self-center py-1 font-weight-light"> Explore <span
+                                    class="d-none d-md-inline">→</span></h2>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-8 p-5 align-self-center text-center">
@@ -175,7 +193,9 @@
                     <div class="col-md-6 col-sm-6 text-center text-lg-left">
                         Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
                         <br>
-                        <a href="{{ site.baseurl }}/privacypolicy">Privacy Policy</a> | <a href="{{ site.baseurl }}/termsandcondition">Terms & Conditions</a> | <a href="{{ site.baseurl }}/contribution">Contributor Guideline</a>
+                        <a href="{{ site.baseurl }}/privacypolicy">Privacy Policy</a> | <a
+                            href="{{ site.baseurl }}/termsandcondition">Terms & Conditions</a> | <a
+                            href="{{ site.baseurl }}/contribution">Contributor Guideline</a>
 
                     </div>
                     <div class="col-md-6 col-sm-6 text-center text-lg-right">
