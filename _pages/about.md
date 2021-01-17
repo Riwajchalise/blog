@@ -2,34 +2,12 @@
 layout: page
 title: About Us
 permalink: /about
-comments: true
+comments: false
 ---
-
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
-
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
-
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
-
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
-
-<h4>Questions or bug reports?</h4>
-
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
-
-</div>
-</div>
-</div>
+[Freethoughts.xyz](https://www.google.com/url?q=http://Freethoughts.xyz&sa=D&source=hangouts&ust=1610968235532000&usg=AFQjCNGh1l1l8YxmRxPYEdMdoE_mNH5Yjg) platform where everyone gets a chance to share their ideas about anything.  
+  
+As the name suggests, our goal is to encourage people to articulate their free thoughts in writing. We observed how people over a cup of coffee or casual gatherings create and share abstract ideas that are profound and potentially valuable. So, we decided to create a platform where people can actually immortalize their ideas which can help everybody seeking new perspective find a new method to simplify their lives.  
+  
+We believe that expressing one’s ideas in writing can help one better understand the meaning of their thoughts and at the same time, help those that are struggling to find meaning in similar domains of their rational or pragmatic life.  
+  
+So, let us become a part of your intellectual journey and make the world a better and a freer place intellectually.
