@@ -3,7 +3,7 @@ layout: post
 title: Benifits of Yoga To Mind And Soul  
 author: 157075subham@gmail.com
 categories: [calm]
-tags: [yoga, meditation, calm, mind and body, essay on meditation]
+tags: [yoga, meditation, calm, mind and body, essay on meditation, essay on yoga, yoga benifits]
 image: https://thumbs.dreamstime.com/z/yoga-exercise-fitness-therapy-healthy-stretch-yoga-poses-woman-treatment-stretching-exercises-meditation-yoga-exercising-142245898.jpg
 # description: "."
 featured: true
