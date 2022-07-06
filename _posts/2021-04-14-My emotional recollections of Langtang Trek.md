@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My emotional recollections of Langtang Trek  
-author: 157075subham@gmail.com
+author: subham
 categories: [ travel, adventure ]
 tags: [langtang trek, tsergo ri, kyanjin ri, nepal, adventure]
 image: assets/images/langtang1.jpg
