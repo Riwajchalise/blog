@@ -7,7 +7,7 @@ tags: [yoga, meditation, calm, mind and body, essay on meditation, essay on yoga
 image: https://thumbs.dreamstime.com/z/yoga-exercise-fitness-therapy-healthy-stretch-yoga-poses-woman-treatment-stretching-exercises-meditation-yoga-exercising-142245898.jpg
 # description: "."
 featured: true
-hidden: false
+hidden: true
 ---
 The infamous philosopher Heraclitus had said &quot;Change is the only constant in life&quot;. This is something we can all intuitively relate to through our personal experiences. Although we strive for a life that constitutes a permanent state of happiness, we live a life that constitutes as many, or even more, painful moments, as pleasurable ones. Failed relationships, unsuccessful professional attempts, departure of loved ones are the sort of experiences that have the power to overwhelm even the strongest of souls and minds. However, latent within these experiences is the capacity to grow and connect ourselves with the power that lies untouched within us. Yoga helps individuals unite themselves with their inner strength to discover new spirit and tranquility in life. Practicing yoga has become an inseparable part of life for millions of people around the world who pursue discipline of the mind and body to accomplish a balanced lifestyle. Yoga empowers mind and soul by helping a person practice mindfulness, overcome negative emotions, improve concentration, prevent mental illness and secrete more positive brain hormones. Practicing yoga can significantly improve an individual&#39;s mental health and elevate soul to new heights.
 
