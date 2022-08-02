@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Here It Begins
+title: Here It Blog
 author: riwaj
 categories: [blogging]
 tags: [blogs]
