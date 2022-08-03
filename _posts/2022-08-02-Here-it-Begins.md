@@ -2,7 +2,7 @@
 layout: post
 title: Here I Blog
 author: riwaj
-categories: [blogging]
+categories: [Life Style]
 tags: [blogs]
 image: https://www.farinasmarketing.com/wp-content/uploads/2019/07/Blogging.png
 # description: "."

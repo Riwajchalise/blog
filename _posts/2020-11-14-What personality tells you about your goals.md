@@ -2,7 +2,7 @@
 layout: post
 title:  What personality tells you about your goals
 author: subham
-categories: [ psychology, goals ]
+categories: [ Life Style]
 tags: [personality, big_five, psychology, goals, big_five_personality, OCEAN Modal ]
 image: https://upload.wikimedia.org/wikipedia/commons/0/0c/Wiki-grafik_peats-de_big_five_ENG.png
 # description: "."

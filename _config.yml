@@ -5,11 +5,11 @@ description: "Write your ideas, thoughts, reviews, research and analysis about a
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 google_analytics: 'G-H2FG74WDBC'
-# google_analytics: 'UA-151028741-1'
 disqus: 'free-thoughts-1'
-mailchimp-list: "https://xyz.us7.list-manage.com/subscribe/post?u=1659f823b7c9374c657209e51&amp;id=711292be44" 
+# mailchimp-list: "https://xyz.us7.list-manage.com/subscribe/post?u=1659f823b7c9374c657209e51&amp;id=711292be44" 
 include: ["_pages"]
 permalink: /:title/
+# url: "https://blog.riwajchalise.com.np/"
 
 # Authors
 collections:
