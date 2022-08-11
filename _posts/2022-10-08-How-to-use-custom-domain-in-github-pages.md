@@ -7,7 +7,7 @@ tags: [github, gh pages, cloudflare, jekyll]
 image: /assets/images/cloudflare-github-pages.png
 # description: "."
 featured: false
-hidden: true
+hidden: false
 ---
 
 Github pages is an awesome tool to host your static website. In this post we are going to see how we can deploy our static html site into our github pages. This article assumes that the site is alredy pushed into you public gihub repositary.
@@ -20,7 +20,8 @@ Make sure the repo where you are pushing your code is a public. If not **go to y
 
 {% include image.html img="/assets/images/github.png" alt="Alt for image" %}
 
-Now that our repo is ready lets 
+Now that our repo is ready lets follow the following steps to publish the site into github pages
+
 
 
 
