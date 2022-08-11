@@ -21,17 +21,17 @@ Make sure the repo where you are pushing your code is public. If not **go to you
 
 
 Now that our repo is ready let's follow the following steps to publish the site on Github pages
-- **Step 1** Go to repo **settings**.
-- **Step 2** Go to **Pages**.
-- **Step 3** In the Branch section click the dropdown and select the branch that you want to deploy.
-- **Step 4** Click **Save**.
-- **Step 5** Enter your domain in the custom domain field and click **save**.
+-  Go to repo **settings**.
+-  Go to **Pages**.
+-  In the Branch section click the dropdown and select the branch that you want to deploy.
+-  Click **Save**.
+-  Enter your domain in the custom domain field and click **save**.
 
 ![github pages]({{ site.baseurl }}/assets/images/github_page_section.png)
 
 Now We have to Point our domain into Github's IP address and we will be using cloud flare as our DNS
 
-- Go to https://www.cloudflare.com/ and signup.
+- Go to [https://www.cloudflare.com](https://www.cloudflare.com/) and signup.
 - On the website section click **add site** button.
 - Write the name of your domain (For example test.com) 
 - Click the free (0$) option. 
