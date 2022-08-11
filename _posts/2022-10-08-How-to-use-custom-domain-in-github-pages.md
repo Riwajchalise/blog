@@ -4,7 +4,7 @@ title: How to use your coustom domain in github pages using Cloud flare
 author: riwaj
 categories: [tech]
 tags: [github, gh pages, cloudflare, jekyll]
-image: https://www.farinasmarketing.com/wp-content/uploads/2019/07/Blogging.png
+image: /assets/images/cloudflare-github-pages.png
 # description: "."
 featured: false
 hidden: true
@@ -17,5 +17,10 @@ We will be using following tools:-
 - Cloudflare
 
 Make sure the repo where you are pushing your code is a public. If not **go to your repositary > click settings > scroll buttom to danger section > click the change repository visiblity buttom > click make public.**
+
+{% include image.html img="/assets/images/github.png" alt="Alt for image" %}
+
+Now that our repo is ready lets 
+
 
 
