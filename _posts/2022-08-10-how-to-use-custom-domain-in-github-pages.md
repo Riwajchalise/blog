@@ -42,6 +42,6 @@ Now We have to Point our domain into Github's IP address and we will be using cl
 
 ![Dns record]({{ site.baseurl }}/assets/images/dns-record.png)
 
-Please note that the site will not be published until your domain has a green checkmark. 
+Please note that the site will not be published until your domain has a green checkmark. Github pages can be used to deploy static site, jekyll site and other static contents.
 
 ![Web pages]({{ site.baseurl }}/assets/images/final-site.png)
