@@ -6,7 +6,8 @@ categories: [tech]
 tags: [github, gh pages, Cloudflare, jekyll]
 image: assets/images/cloudflare-github-pages.png
 # description: "."
-featured: true
+featured: false
+hidden: false
 ---
 Github page is an awesome tool to host your static website. In this post, we will see how we can deploy our static HTML site into our Github pages. This article assumes that the site is already pushed into your public GitHub repository.
 
@@ -42,6 +43,5 @@ Now We have to Point our domain into Github's IP address and we will be using cl
 ![Dns record]({{ site.baseurl }}/assets/images/dns-record.png)
 
 Please note that the site will not be published until your domain has a green checkmark. 
-
 
 ![Web pages]({{ site.baseurl }}/assets/images/final-site.png)
