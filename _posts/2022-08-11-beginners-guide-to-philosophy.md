@@ -12,9 +12,6 @@ hidden: false
 
 
 ## What is Philosophy?
-
-  
-
 Have you ever found yourself questioning your existence? Have you ever questioned the role of religion or science in human affairs? Or have you ever questioned the morals you are supposed to unquestionably confirm? If you have then, my friend, you are not alien to the world of philosophy.
 
   
