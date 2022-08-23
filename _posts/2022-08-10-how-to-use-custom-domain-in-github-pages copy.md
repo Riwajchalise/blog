@@ -5,12 +5,12 @@ author: riwaj
 categories: [tech]
 tags: [aws, ecc2, aws cli]
 image: assets/images/2022-08-23/aws-cli-cover.png
-# description: "."
+description: This article discusses on how to launch AWS's ec2 instance using CLI in 3 easy steps
 featured: false
 hidden: false
 ---  
 
-Aws offers a command line interface tool that has a very wide scope. This blog article discusses on how we can launch a new ec2 instance using AWS CLI
+Aws offers a command line interface tool that has a very wide scope. This blog article discusses on how we can launch a new ec2 instance using AWS CLI.
 
   
 
